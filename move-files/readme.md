@@ -25,3 +25,18 @@ For example, if you had the following file structure:
 ```
 
 and you wanted to flatten the directories to have all of the images stored in a single location you could run `moveFiles.js` with `./main` as the `source` variable and `./output` as the `destination` variable.
+
+The result would be:
+
+```
+-- main
+  -- 2019
+    -- 01
+    -- 02
+
+-- output
+  -- image1.jpg
+  -- image2.jpg
+  -- image3.jpg
+  -- image4.png
+```
