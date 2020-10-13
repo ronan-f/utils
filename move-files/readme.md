@@ -9,3 +9,19 @@ To use:
    This could be updated to match any file type needed.
 3. From your command line run `node moveFiles.js`
 4. That's it
+
+For example, if you had the following file structure:
+
+```
+-- main
+  -- 2019
+    -- 01
+      -- image1.jpg
+      -- image2.jpg
+    -- 02
+      -- image3.jpg
+      -- image4.png
+-- output
+```
+
+and you wanted to flatten the directories to have all of the images stored in a single location you could run `moveFiles.js` with `./main` as the `source` variable and `./output` as the `destination` variable.
